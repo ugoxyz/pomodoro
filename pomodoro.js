@@ -1,4 +1,4 @@
-let breakIncrementButton = document.getElementById("break-increment");
+/* let breakIncrementButton = document.getElementById("break-increment");
 let breakDecrementButton = document.getElementById("break-decrement");
 let sessionIncrementButton = document.getElementById("session-increment");
 let sessionDecrementButton = document.getElementById("session-decrement");
@@ -49,3 +49,5 @@ minuteDisplay -=1;
 
     return minuteDisplay + ":" + secondDisplay;
 }
+
+*/

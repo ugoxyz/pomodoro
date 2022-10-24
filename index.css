@@ -1,18 +1,125 @@
-.time-sets{
-    display: grid;
-    grid-template-columns: 50px 200px 50px;
-    justify-items: center;
-    align-items: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.dual-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 700px;
-    justify-items: center;
-    align-items: center;
+@media only screen and (max-width: 800px) {
+    body {
+        transform: scale(0.6);
+    }
 }
 
-body{
+.wrapper {
+    height: 90vh;
+}
+
+.main-container {
+    display: flex;
+    margin: auto;
+    width: 450px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 45, 107);
+    padding: 10px;
+    box-shadow: 1px 10px 20px 0.5px rgb(50, 80, 126);
+    border-radius: 10px;
+}
+
+body {
     background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.for-length {
+    margin: 10px 10px 10px 0px;
+}
+
+.wrapper-time {
+    background-color: rgb(193, 193, 193);
+    border-radius: 10px;
+    padding: 3px;
+    min-width: 40px;
+}
+
+.time-sets {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    border-radius: 0px 0px 10px 10px
+}
+
+.time-sets h3 {
+    font-size: 1.2rem;
+    box-shadow: inset 1px 2px 5px 2px rgb(214, 214, 214);
+    padding: 5px;
+    min-width: 20px;
+    display: inline-block;
+    margin: 5px;
+
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.label {
+    font-size: 1.0rem;
+    padding-top: 10px;
+    background-color: rgb(135, 181, 206);
+    font-weight: bolder;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.time-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0px 10px 10px 10px;
+    width: 20vw;
+
+}
+
+.indicators {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(255, 203, 247);
+    border-radius: 5px;
+}
+
+.indicators h1 {
+    background-color: rgb(255, 255, 255);
+    font-size: 3rem;
+    box-shadow: inset 1px 2px 5px 2px rgb(214, 214, 214);
+    padding: 10px;
+    margin-top: 0;
+
+}
+
+.indicators h3 {
+    background-color: rgb(255, 203, 247);
+    margin-bottom: 0;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+
+
+.footer a {
+    text-decoration: none;
+    color: brown;
 }
